@@ -7,15 +7,15 @@ public class Base {
         /*ввод первого числа*/
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the First number");
-        int a = scanner.nextInt();
+        double a = scanner.nextDouble();
 
         /*ввод второго числа*/
         System.out.println("Enter the Second number");
-        int b = scanner.nextInt();
+        double b = scanner.nextDouble();
 
         /*отображение результата*/
         System.out.println("Sum is:");
-        System.out.print(a + b);
+        System.out.printf("%.4f",a + b);
         scanner.close();
 
     }
