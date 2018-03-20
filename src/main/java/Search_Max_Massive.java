@@ -6,11 +6,11 @@ public class Search_Max_Massive {
     static int massLength;
     static String[] mass;
 
-    public static void main(String[] args) {
-      massive();
-
-        }
-    private static void massive(){
+//    public static void main(String[] args) {
+//      massive();
+//
+//        }
+    public static void massive(){
 
         inputMassLength();
         inputWords();
