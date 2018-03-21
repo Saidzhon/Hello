@@ -11,9 +11,9 @@ public class Zadanie_4 {
         for (int i = 0; i < numbers.length; i++) {      // вывод сгинерированных чисел
             System.out.println(numbers[i] + "  ");
         }
-        int min = numbers[0];                           //отображаение минимума
+        int min = numbers[0];
         for (int i = 0;i< numbers.length; i++)
-            if (min >= numbers[i])
+            if (min > numbers[i])
                 min = numbers[i];
 
         System.out.println("\nmin =" + min);          //отображаение минимума
@@ -23,6 +23,6 @@ public class Zadanie_4 {
             if (max < numbers[i])
                 max = numbers[i];
 
-        System.out.println("\n max =" + max);
+        System.out.println("\nmax =" + max);           //отображение максимума
 }}
 
